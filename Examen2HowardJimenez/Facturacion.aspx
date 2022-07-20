@@ -24,7 +24,7 @@ Descuento:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <asp:TextBox ID="DescFacturaTxt" runat="server" Height="20px" Width="133px"></asp:TextBox>
 <br />
 <br />
-<asp:Button ID="BAgregar" runat="server" Text="Agregar" Width="103px" />
+<asp:Button ID="BAgregar" runat="server" Text="Agregar" Width="103px" OnClick="BAgregar_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;
 <asp:Button ID="BSalvar" runat="server" Text="Salvar" Width="103px" />
 &nbsp;&nbsp;&nbsp;&nbsp;

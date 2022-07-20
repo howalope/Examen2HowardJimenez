@@ -34,8 +34,8 @@ namespace Examen2HowardJimenez
 
         protected void BAgregar_Click(object sender, EventArgs e)
         {
-            
-            
+
+            montoF = float.Parse(montoFacturaTxt.Text);
         }
     }
 }
