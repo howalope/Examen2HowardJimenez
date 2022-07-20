@@ -12,7 +12,7 @@
 Sección I: Datos de la Factura<br />
 <br />
 N. Factura:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<asp:TextBox ID="NFacturaTxt" runat="server" Height="20px" Width="133px"></asp:TextBox>
+<asp:TextBox ID="NFacturaTxt" runat="server" Height="20px" Width="133px" OnTextChanged="NFacturaTxt_TextChanged"></asp:TextBox>
 <br />
 Mes a Facturar:&nbsp;&nbsp;&nbsp;
 <asp:TextBox ID="mesFacturaTxt" runat="server" Height="20px" Width="133px"></asp:TextBox>
@@ -34,14 +34,15 @@ Descuento:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Sección II: Datos del Cliente<br />
 <br />
 <br />
-<asp:TextBox ID="NombreFacTxt" runat="server" Height="20px" Width="133px"></asp:TextBox>
+<asp:TextBox ID="NombreFacTxt" runat="server" Height="20px" Width="133px" OnTextChanged="NombreFacTxt_TextChanged"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <asp:TextBox ID="CedulaFacturaTxt" runat="server" Height="20px" Width="133px"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <asp:TextBox ID="TelefonoFacturaTxt" runat="server" Height="20px" Width="133px"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <asp:TextBox ID="DireccionFacturaTxt" runat="server" Height="20px" Width="133px"></asp:TextBox>
-<br />
+    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nombre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cédula&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Teléfono&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dirección<br />
 <br />
 Sección III: Resumen<br />
 <br />

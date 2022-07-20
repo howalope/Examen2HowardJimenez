@@ -11,6 +11,23 @@ namespace Examen2HowardJimenez
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            NombreFacTxt.Text = Cliente.GetNombre();
+            CedulaFacturaTxt.Text = Cliente.GetCedula();
+            TelefonoFacturaTxt.Text = Cliente.GetTelefono();
+            DireccionFacturaTxt.Text = Cliente.GetDireccion();
+            NFacturaTxt.Text = "Julio";
+            mesFacturaTxt.Text = "0001JUL2022";
+
+
+        }
+
+        protected void NombreFacTxt_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void NFacturaTxt_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
