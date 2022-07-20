@@ -14,15 +14,15 @@
     <form id="form1" runat="server">
         <div>
             <ul>
-                <li><a class="active" href="#home">Inicio</a></li>
-                <li><a href="#news">Cliente</a></li>
-                <li><a href="#contact">Factura</a></li>
+                <li><a class="active" href="inicio.aspx">Inicio</a></li>
+                <li><a href="IngresoCliente.aspx">Cliente</a></li>
+                <li><a href="Facturacion.aspx">Factura</a></li>
             </ul>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 <br />
                 <br />
                 <br />
-                Hola
+            
             </asp:ContentPlaceHolder>
         </div>
     </form>

@@ -13,5 +13,25 @@ namespace Examen2HowardJimenez
         {
 
         }
+
+        protected void BElectricidad_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Facturacion.aspx");
+        }
+
+        protected void BAgua_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Facturacion.aspx");
+        }
+
+        protected void BCable_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Facturacion.aspx");
+        }
+
+        protected void BTelefono_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Facturacion.aspx");
+        }
     }
 }
